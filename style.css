@@ -1,0 +1,621 @@
+* {
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    z-index: 2;
+    border: none;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+.nav {
+    border: none;
+    height: 35px;
+    width: 100%;
+    background-color: #f8cb2e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-text {
+    padding-top: 10px;
+}
+
+.row {
+    padding-top: 10px;
+}
+
+.tmain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hticket {
+    border: none;
+    height: 28px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #EE5007;
+}
+
+.sech2{
+    color: white;
+    padding-top: 10px;
+    text-align: start;
+}
+.hlink {
+    padding-top: 10px;
+}
+
+.ha {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.hlink :hover {
+    color: #EE5007;
+}
+
+.hlink :hover {
+    color: #EE5007;
+}
+
+.hticket :hover {
+    background-color: darkorange;
+}
+
+.at {
+    text-decoration: none;
+    color: white;
+}
+.info{
+    height: 800px;
+    width: 100%;
+    border: 9px solid black;
+    text-align: center;
+    
+    }
+.center-info{
+    height: 200px;
+    width: 600px;
+    border: 5px solid red;
+    padding-top: 150px;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    /* padding-bottom: 300px; */
+}
+.center-info h1{
+    font-size: 68px;
+}
+.center-info button{
+    height: 50px;
+    width: 120px;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    background-color: #EE5007;
+    /* color: #F0F8FF; */
+}
+.info-a{
+    color: #F0F8FF;
+    text-decoration: none;
+}
+.parentansh{
+    height: 300px;
+    width: 100%;
+    border: 2px solid yellow;
+    padding-top: 200px;
+}
+.ansh{
+    height: 60px;
+    width: 100%;
+    border: 1px solid orange;
+    background-color: #f8cb2e;
+    display: flex;
+    justify-content: space-between;
+}
+.ansh-child{
+    height: 50px;
+    width: 300px;
+    border: 1px solid chocolate;
+}
+.clock{
+    background-size: cover;
+    height: 20px;
+   padding-left: 12px;
+}
+.section2 {
+  height: 600px;
+  width: 100%;
+  background-image: url(./nicholas-green-unsplash-blur.jpg);
+}
+.sec2inf{
+    height: 500px;
+    width: 100%;
+    /* border: 9px solid green; */
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    height: 450px;
+    width: 50%;
+    /* border: 2px solid blue; */
+    color: white;
+    padding: 20px;
+}
+.moments{
+    height: 400px;
+    width: 50%;
+    /* border: 2px solid blue; */
+}
+.momentsimg{
+    height: 190px;
+    width: 70%;
+    /* border: 3px solid white; */
+    border-radius: 10px;
+    background-image: url(./happy.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    padding-top: 200px;
+}  
+.momemts-text{
+    height: 80px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    opacity: .9;
+    padding-top: 30px;
+} 
+.micn-txt{
+    height: 80px;
+    width: 95%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: flex-start; */
+}
+.artist{
+    height: 1000px;
+    width: 100;
+    /* border: 10px solid brown; */
+}
+.heading-artist{
+    /* border: 3px solid black; */
+    padding-top: 150px;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.artistphoto{
+    height: 680px;
+    width: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.artist-1{
+    height: 600px;
+    width: 27%;
+    border: 3px solid orange; 
+    border-radius: 20px;
+    row-gap: 10px;
+    background-size: cover;
+    background-image: url(./Arijit.jpg);
+}
+
+
+.artistphoto-23{
+    height: 680px;
+    width: 30%;
+    /* border: 9px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.artist-2{
+    height: 250px;
+    width: 90%;
+    border: 3px solid blue; 
+    border-radius: 20px;
+    background-image: url(./Neha\ kakkar.jpg);
+    background-size: cover;
+}
+.artist-3{
+    height: 260px;
+    width: 90%;
+    border: 3px solid blue; 
+    border-radius: 20px;
+    background-image: url(./badshah.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.parent {
+    /* border: 1px solid black; */
+    background-image: url(./download.jpeg);
+    background-size: cover;
+    height: 900px;
+}
+.schedule{
+    height: 150px;
+    width: 100%;
+    border: 3px solid red;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+.timing{
+    height: 600px;
+    width: 100%;
+    border: 3px solid red;
+}
+.grid{
+    height: 100px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+}
+.box1{
+    grid-template-columns: 1,1;
+    grid-template-rows: 1,2;
+    border: 1px solid black;
+}
+.box2{
+    grid-template-columns: 1,2;
+    grid-template-rows: 2,3;
+}
+
+.fairsec {
+padding-top: 60px;
+    text-align: center;
+    height: 500px;
+    width: 100;
+    font-size: 23px;
+    background-color: #F0F8FF;
+    /* border: 1px solid black; */
+}
+.fair-details{
+    height: 420px;
+    width: 100%;
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.early-fair{
+    height: 320px;
+    width: 600px;
+    border: 5px dotted black;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.parent-price{
+    height: 120px;
+    width: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.price{
+    height: 100px;
+    width: 300px;
+    /* border: 1px solid black; */
+}
+.price-h3{
+    color: black;
+}
+.price-p{
+    font-size: 20px;
+}
+.circle{
+    height: 120px;
+    width: 125px;
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+.circle-p{
+    font-size: 15px;
+    text-align: inherit;
+    padding-top: 30px;
+}
+.circle-h2{
+    font-size: larger;
+}
+.list-items{
+    height: 100px;
+    width: 597px;
+    /* border: 1px solid black; */
+    /* display: flex;
+    justify-content: space-between; */
+}
+.list-item-1{
+    height: 50px;
+    width: 545px;
+    /* border: 1px solid black; */
+    padding-left: 55px;
+    font-size: large;
+}
+.list-item-2{
+    height: 50px;
+    width: 545px;
+    /* border: 1px solid black; */
+    padding-left: 55px;
+    font-size: large;
+}
+.buyticket{
+    text-align: start;
+    padding-left: 60px;
+}
+.ticket-a{
+    color:#EE5007;
+}
+.standard-fair{
+    height: 340px;
+    width: 650px;
+    border: 5px dotted black;
+    border-radius: 20px;
+}
+.price-standard{
+    padding-top: 20px;
+    height: 100px;
+    width: 300px;
+   /* / border: 1px solid black; */
+}
+.list-item-standard{
+    height: 120px;
+    width: 597px;
+    /* border: 1px solid black; */
+}
+.pf {
+    font-size: 18px;
+}
+
+.talksec {
+    /* margin: 100px; */
+    height: 600px;
+    width: 100%;
+    padding-top: 20px;
+    /* border: 1px solid brown; */
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+}
+.talk-options{
+    /* border: 2px solid chocolate; */
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.talkmenu {
+    background-color: lightblue;
+    height: 60px;
+    width: 500px;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contact {
+    height: 60px;
+    width: 240px;
+    border-radius: 40px;
+    /* border: 1px solid black; */
+    background-color: white;
+    color:#f8cb2e;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.map{
+    height: 60px;
+    width: 240px;
+    border-radius: 40px;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.form-parent{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.form {
+    display: block;
+    height: 220px;
+    width: 650px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    /* margin-top: 150px; */
+    padding: 3em 2em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.name {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.email {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.company {
+    /* margin-top: 24px; */
+    height: 40px;
+    width: 610px;
+    border-radius: 5px;
+}
+
+.message {
+    /* margin-top: 24px; */
+    height: 50px;
+    width: 610px;
+    border-radius: 5px;
+}
+
+.submitbtn {
+    /* margin-top: 24px;
+    margin-left: 150px; */
+    height: 40px;
+    width: 180px;
+    border-radius: 40px;
+    background-color: orangered;
+}
+
+footer {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    /* margin-top: -150px; */
+}
+
+.topfooter {
+    height: 100px;
+    width: 100%;
+    border: none;
+    background-color: #EE5007;
+}
+
+.topmain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerh2 {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.footericn {
+    padding-top: 50px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.ficn {
+    width: 25px;
+    color: white;
+    animation: icn 2s ease-in-out infinite;
+}
+
+@keyframes icn {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bottomfooter {
+    height: 180px;
+    width: 100%;
+}
+
+.boottommain {
+    height: 280px;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btmlnk {
+    height: 250px;
+    width: 500px;
+}
+
+.btmlnk :hover {
+    color: #EE5007;
+}
+
+h3 {
+    color: yellow;
+    font-size: xx-large;
+}
+
+.btma {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.query {
+    height: 250px;
+    width: 300px;
+    color: white;
+}
+
+.query :hover {
+    color: #EE5007;
+}
+
+.location {
+    height: 250px;
+    width: 300px;
+}
+
+.lp {
+    color: white;
+}
+
+.endfooter {
+    height: 80px;
+    width: 100%;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+.finf {
+    height: 80px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.endfa {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.elnk :hover {
+    color: #EE5007;
+}
