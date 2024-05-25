@@ -5,7 +5,7 @@
 }
 
 header {
-
+    z-index: 2;
     border: none;
     height: 80px;
     width: 100%;
@@ -15,9 +15,9 @@ header {
 }
 
 .nav {
-    padding-bottom: 50px;
     border: none;
     height: 35px;
+    width: 100%;
     background-color: #f8cb2e;
     display: flex;
     flex-wrap: wrap;
@@ -41,13 +41,13 @@ header {
 
 .hticket {
     border: none;
-    height: 28px;
-    width: 100px;
-    border-radius: 20px;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
+    height: 45px;
+    width: 120px;
+    padding-top: 15px;
+    border-radius: 30px;
     background-color: #EE5007;
+    text-align: center;
+    margin-top: 10px;
 }
 
 h2 {
@@ -80,9 +80,9 @@ h2 {
 
 .bimg {
     background-image: url(./nicholas-green-unsplash-blur.jpg);
-    height: 900px;
+    background-repeat: no-repeat;
+    height: 800px;
     width: 100%;
-    /* margin-top: -100px; */
 }
 
 .ticket {
@@ -93,99 +93,116 @@ h2 {
    align-items: center  ;
 }
 
-.form {
-    padding-top: 25px;
-    height: 500px;
-    width: 500px;
-    border-radius: 20px;
-    /* margin-left: 170px;
-    margin-top: 100px; */
+.form{
+    height: 600px;
+    width: 630px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-}
-
-.form-inf{
-    width: 90%;
-    padding-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    border-radius: 10px;
 }
 .form-h1{
-    /* border: 1px solid red; */
-    height: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 20px;
 }
 .intro{
-    height: 35px;
-    width: 100%;
-    /* border: 1px solid brown; */
+    height: 80px;
+    width: 630px;
     display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
 }
-.name{
-    height: 30px;
-    width: 100%;
+.intro input{
+    height: 45px;
+    width: 280px;
+    border-radius: 4px;
+    padding-left: 20px;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-size: larger;
 }
 .phone{
-    height: 35px;
-    width: 100%;
-   /* border: 1px solid crimson; */
+    height: 60px;
+    width: 630px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
 }
-.tel{
-    height: 30px;
-    width: 99%;
-    border-radius: 5px;
+.phone input{
+    height: 45px;
+    width: 600px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    font-size: larger;
+    
 }
 .ttype{
-    height: 35px;
-    width: 100%;
-    /* border: 1px solid brown; */
+    height: 60px;
+    width: 630px;
+    padding-top: 10px;
     display: flex;
-}
-h2{
+    justify-content: space-around;
+    text-align: start;
     color: black;
+    font-size: x-large;
 }
-.tprice{
-    height: 45px;
-    width: 100%;
-    /* border: 1px solid brown; */
+.ticket-optns{
+    height: 60px;
+    width: 630px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.early{
+    height: 50px;
+    width: 250px;
+    border: 1px solid  #ced4da;
+    border-radius: 4px;
+    padding: 15px;
 }
 .standard{
-    height: 35px;
-    width: 48%;
-    border: 1px solid black;
-    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    border: 1px solid  #ced4da;
+    border-radius: 4px;
+    padding: 15px;
 }
-.normal{
-    height: 35px;
-    width: 48%;
-    border: 1px solid black;
-    border-radius: 5px;
+.tprice{
+    height: 50px;
+    width: 610px;
+    padding-left: 10px;
 }
 .numbertckt{
-    height: 35px;
-    width: 99%;
-    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid  #ced4da;
+    border-radius: 4px;
+    padding: 15px;
 }
 .request{
-    height: 60px;
-    width: 99%;
-    border-radius: 10px;
+    height: 90px;
+    width: 100%;
+    border: 1px solid  #ced4da;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 20px;
 }
-button{
-    height: 40px;
-    width: 130px;
-    border-radius: 20px;
-    background-color: #EE5007;
+.ftckt{
+    padding-left: 200px;
+    padding-top: 15px;
 }
 .tbutton{
-    display: flex;
-    justify-content: center;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #EE5007;
+    font-size: large;
+    text-align: center;
+    padding-top: 15px;
+  
+}
+.tbutton a{
+    font-size: larger;
+    color: white;
+    text-decoration: none;
 }
 footer {
     height: 500px;
@@ -224,12 +241,6 @@ ul {
     width: 25px;
     color: white;
     animation: icn 2s ease-in-out infinite;
-}
-
-@keyframes icn {
-    100% {
-        transform: rotate(360deg);
-    }
 }
 
 .bottomfooter {
