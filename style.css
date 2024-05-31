@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -205,6 +205,7 @@ video {
     width: 100%;
     padding-top: 80px;
     display: flex;
+    /* flex-direction: column; */
     justify-content: space-between;
 }
 
@@ -245,6 +246,7 @@ video {
     height: 80px;
     width: 95%;
     display: flex;
+    padding-left: 30px;
 }
 
 .artist {
@@ -261,29 +263,32 @@ video {
 
 
 
-.main-artist{
+.main-artist {
     width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     margin: 0px auto;
-  }
-  .one{
+}
+
+.one {
     grid-column: 1/2;
     grid-row: 1/3;
     border-radius: 30px;
-  }
-  .two{
+}
+
+.two {
     grid-column: 2/3;
     grid-row: 1/2;
-  }
-  .three{
+}
+
+.three {
     grid-column: 2/3;
     grid-row: 2/3;
-  }
+}
 
-  .artist-card{
+.artist-card {
     width: 100%;
     height: 300px;
     border-radius: 30px;
@@ -291,30 +296,34 @@ video {
     background-size: cover;
     overflow: hidden;
     position: relative;
-  }
-  .one{
+}
+
+.one {
     background-image: url(./diljit.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
     height: 100%;
-  }
-  .two{
+}
+
+.two {
     background-image: url(./honey1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
-  }
-  .three{
+}
+
+.three {
     background-image: url(./parmish1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
-  }
-  .above-card {
+}
+
+.above-card {
     width: 450px;
     height: 200px;
-    background-color:rgba(184, 135, 11, 0.79);
+    background-color: rgba(184, 135, 11, 0.79);
     color: white;
     font-size: 20px;
     border-radius: 30px;
@@ -322,15 +331,15 @@ video {
     padding-top: 40px;
     position: absolute;
     left: 60px;
-    bottom: -200px; 
-    transition:all 0.3s ease;
+    bottom: -200px;
+    transition: all 0.3s ease;
     line-height: 2;
-  }
+}
 
-  .artist:hover .above-card{
+.artist:hover .above-card {
     bottom: 40px;
     left: 60px;
-  }
+}
 
 .parent {
     background-image: url(./download.jpeg);
@@ -444,7 +453,7 @@ video {
 .item8 {
     background-image: url(./diljit.jpg);
     background-size: contain;
-    background-position:bottom;
+    background-position: bottom;
     color: white;
     line-height: 10px;
 }
@@ -507,7 +516,7 @@ video {
 
 .item14 {
     background-image: url(./honey1.jpg);
-     background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
     line-height: 10px;
@@ -678,6 +687,13 @@ h2 {
     padding-top: 30px;
 }
 
+.map-card {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .talkmenu {
     background-color: #F0F8FF;
     height: 90px;
@@ -700,9 +716,10 @@ h2 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
-.contact h4{
+
+.contact h4 {
     margin-top: 10px;
 }
 
@@ -715,18 +732,23 @@ h2 {
     font-weight: bold;
 }
 
-.map h4{
+.map h4 {
     margin-top: 10px;
 }
-iframe{
-    width: 500px;
-    height: 400px;
+
+iframe {
+    width: 600px;
+    height: 470px;
+    padding-top: 40px;
+    padding-right: 20px;
 }
+
 .map:hover {
     color: #F8CB2E;
     background-color: white;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175)
 }
+
 .form-parent {
     height: 480px;
     width: 100%;
@@ -735,22 +757,24 @@ iframe{
     padding-top: 40px;
 }
 
-.form{
+.form {
     height: 430px;
     width: 850px;
     border: 1px solid black;
     border-radius: 20px;
     padding-top: 30px;
-     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-.detail{
+
+.detail {
     height: 50px;
     width: 845px;
     display: flex;
     justify-content: space-around;
     padding-left: 10px;
 }
-.detail input{
+
+.detail input {
     height: 50px;
     width: 390px;
     border-radius: 8px;
@@ -758,13 +782,15 @@ iframe{
     padding-left: 30px;
     border: 1px solid #ced4da;
 }
-.company{
+
+.company {
     height: 60px;
     width: 845px;
     margin-top: 30px;
     padding-left: 25px;
 }
-.company input{
+
+.company input {
     height: 60px;
     width: 810px;
     border-radius: 8px;
@@ -772,13 +798,15 @@ iframe{
     padding-left: 30px;
     font-size: large;
 }
-.message{
+
+.message {
     height: 80px;
     width: 845px;
     margin-top: 30px;
     padding-left: 25px;
 }
-.message input{
+
+.message input {
     height: 80px;
     width: 810px;
     border-radius: 8px;
@@ -793,7 +821,8 @@ iframe{
     padding-top: 60px;
     padding-left: 300px;
 }
-.formbtn{
+
+.formbtn {
     height: 50px;
     width: 200px;
     border-radius: 40px;
@@ -829,8 +858,8 @@ footer {
     padding-top: 50px;
 }
 
-.live-lists img:hover{
-  filter: drop-shadow(0px 0px 5px 2px yellow);
+.live-lists img:hover {
+    filter: drop-shadow(0px 0px 5px 2px yellow);
 }
 
 ul {
@@ -844,11 +873,6 @@ ul {
     color: white;
     animation: icn 2s ease-in-out infinite;
 }
-
- .hover icn{
-        transform: rotate(360deg);
-    }
-
 
 .bottomfooter {
     height: 180px;
@@ -866,6 +890,8 @@ ul {
 .btmlnk {
     height: 250px;
     width: 500px;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 .btmlnk :hover {
@@ -929,9 +955,127 @@ hr {
 .elnk :hover {
     color: #EE5007;
 }
+
 @media screen and (min-width:300px) and (max-width:600px) {
-    
-    .tmain{
+
+    .tmain {
         flex-direction: column;
+    }
+
+    video {
+        height: 700px;
+        width: auto;
+    }
+
+    .center-info {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .sec2inf {
+        flex-direction: column;
+    }
+
+    .sech2 {
+        text-align: center;
+        padding-left: 50px;
+        flex-direction: row;
+    }
+
+    .momentsimg {
+        margin-top: 65px;
+        height: 300px;
+        width: 160%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .momemts-text {
+        margin-top: -150px;
+        width: 80%;
+    }
+
+    .heading-artist {
+        margin-top: 100px;
+        padding-right: 90px;
+    }
+
+    .one {
+        height: 500px;
+        width: 230%;
+        margin-right: 80px;
+        margin-left: -60px;
+    }
+
+    .two {
+        height: 500px;
+        width: 230%;
+        margin-right: 80px;
+        margin-top: 510px;
+        margin-left: -220px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+
+    .three {
+        height: 500px;
+        width: 230%;
+        margin-right: 80px;
+        margin-top: -10px;
+        margin-left: -220px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+
+    .above-card {
+        /* left: -20px; */
+        /* margin-right: 40px; */
+        width: 250px;
+        margin-right: 100px;
+    }
+
+    .parent {
+        width: 100%;
+    }
+
+    .img-grid {
+        /* width: 500%; */
+        margin-top: 800px;
+    }
+
+    .fairsec {
+        height: 800px;
+    }
+
+    .fairsec h2 {
+        font-size: xx-large;
+        padding-right: 100px;
+    }
+
+    .fair-details {
+        flex-direction: column;
+    }
+     .contact h4 {
+        font-size: smaller;
+        margin-top: -1px;
+    }
+
+    .map h4 {
+        font-size: smaller;
+        margin-top: -1px;
+    }
+
+    .map-card {
+        flex-direction: column;
+    }
+
+    .form{
+        width: 100%;
+    }
+    
+    iframe{
+        width: 100%;
     }
 }
