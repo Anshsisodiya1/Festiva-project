@@ -7,64 +7,33 @@
     <title>Festiva Live Project</title>
     <link rel="stylesheet" href="./style.css">
 
-
-    <script>
-    //    function menuToggle(){
-    //         console.log("Chala");
-    //         let menu=document.getElementById("menu")
-    //         if(menu.style.display=="none"){
-    //             menu.style.display="block"
-    //         }
-    //         else{
-    //             menu.style.display="none"
-    //         }
-    //     }
-     
-    </script>
 </head>
 
 <body>
-    <div class="nav">
+    <div class="nav1">
         <img src="./person.png" alt="icn" height="30px">
         <div class="nav-text">Welcome to music festiva live 2024</div>
     </div>
-    <header>
-
-        <div class="tmain">
-            <h4>Festiva Live</h4>
-            <span onClick="menuToggle()">
-                <svg id="hamb" xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 32 32"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h22M5 16h22M5 24h22"/></svg>
-              </span>
-            <div class="hlink menu" id="menu">
-                <a href="#home" class="ha">Home</a>
-                <a href="#about" class="ha">About</a>
-                <a href="#artist" class="ha">Artist</a>
-                <a href="#Schedule" class="ha">Schedule</a>
-                <a href="#pricing" class="ha">Pricing</a>
-                <a href="#contact" class="ha">Contact</a>
-            </div>
-            <div class="hticket">
-                <a href="./ticket.html">BuyTicket</a>
-            </div>
-        </div>
-    </header>
-    <!-- <section class="nav">     -->
-    
-    
-    
+    <section class="nav">
+        <div class="logo">Hamburger Menu</div>
+  
+        <input id="menu-toggle" type="checkbox" />
+  
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+  
+  
         <!-- main menu -->
-        <!-- <ul class="menu" id="menu">
+        <ul class="menu">
           <li>Home</li>
+          <li>Topics</li>
           <li>About</li>
-          <li>Artist</li>
-          <li>Menu</li>
-          <li>Schedule</li>
-          <li>Pricing</li>
           <li>Contact</li>
-        </ul> -->
-      <!-- </section> -->
+        </ul>
+      </section> 
     <section class="section1">
-        <video autoplay loop muted id="home">
+        <video autoplay loop muted id="home" width="100%">
             <source src="./backgroundvdo.mp4">
         </video>
         <div class="info">
